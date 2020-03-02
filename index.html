@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+    />
+    <link rel="stylesheet" href="client/css/style.css" />
+    <title>VD</title>
+  </head>
+  <body>
+    <div class="row d-flex vd-nav">
+      <div class="col-lg-5 col-md-5 col-5">
+        <ul id="vd-nav-ul-right" class="list-inline vd-nav-ul-left">
+          <li class="list-inline-item">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </li>
+          <li class="list-inline-item hiden"><a href="">Art Prints</a></li>
+          <li class="list-inline-item hiden"><a href="">Ramar</a></li>
+          <li class="list-inline-item vd-search hiden">
+            <span class="vd-search-btn">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                role="presentation"
+                class="icon icon-search"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M18.64 17.02l-5.31-5.31c.81-1.08 1.26-2.43 1.26-3.87C14.5 4.06 11.44 1 7.75 1S1 4.06 1 7.75s3.06 6.75 6.75 6.75c1.44 0 2.79-.45 3.87-1.26l5.31 5.31c.45.45 1.26.54 1.71.09.45-.36.45-1.17 0-1.62zM3.25 7.75c0-2.52 1.98-4.5 4.5-4.5s4.5 1.98 4.5 4.5-1.98 4.5-4.5 4.5-4.5-1.98-4.5-4.5z"
+                ></path>
+              </svg>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-2 text-center">
+        <img
+          class="vd-logo m-auto"
+          src="client/images/WOA_emblem.svg"
+          alt="WOA"
+        />
+      </div>
+      <div class="col-lg-5 col-md-5 col-5">
+        <ul class="list-inline vd-nav-ul-right d-flex flex-row-reverse">
+          <li class="list-inline-item bag-heart">
+            <i class="far fa-heart"></i>
+            <span>
+              <svg
+                class="icon icon-cart"
+                id="cart-click-icon"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                version="1.1"
+                sodipodi:docname="shopping_bag.svg"
+                inkscape:version="0.92.4 5da689c313, 2019-01-14"
+              >
+                <defs id="defs8" />
+                <sodipodi:namedview
+                  pagecolor="#ffffff"
+                  bordercolor="#000000"
+                  borderopacity="1"
+                  objecttolerance="10"
+                  gridtolerance="10"
+                  guidetolerance="10"
+                  inkscape:pageopacity="0"
+                  inkscape:pageshadow="2"
+                  inkscape:window-width="1920"
+                  inkscape:window-height="1067"
+                  id="namedview6"
+                  showgrid="false"
+                  inkscape:zoom="9.8333333"
+                  inkscape:cx="-6.2033898"
+                  inkscape:cy="36.40678"
+                  inkscape:window-x="0"
+                  inkscape:window-y="13"
+                  inkscape:window-maximized="0"
+                  inkscape:current-layer="svg4"
+                />
+                <path
+                  d="M 16,6 V 4 C 16,1.791 14.209,0 12,0 9.791,0 8,1.791 8,4 V 6 H 3 V 24 H 21 V 6 Z M 9,4 c 0,-1.654 1.346,-3 3,-3 1.654,0 3,1.346 3,3 V 6 H 9 Z M 19.610169,22.711864 H 4.3898305 V 7.3898305 H 8 h 1 6 1 3.610169 z"
+                  id="path2"
+                  inkscape:connector-curvature="0"
+                  sodipodi:nodetypes="csssccccccsssccsccccccccc"
+                  style="fill:#000000"
+                />
+              </svg>
+            </span>
+          </li>
+          <!-- <li class="list-inline-item"></li> -->
+          <li class="list-inline-item hiden"><a href="">English</a></li>
+          <li class="list-inline-item hiden">
+            <a href="">Fri frakt inom Sverige</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row content1 content-top-most" id="content1">
+      <div class="col-lg-6 col-md-6 ">
+        <div class="content-detail">
+          <img
+            src="client/images/Wallofart_art_print_startpage_12_700x.jpg"
+            alt="12-700.jpg"
+          />
+          <div class="content-text">
+            <h3>En kurerad konstkollektion</h3>
+            <button class="content-text-btn mt-3">
+              <a href="/client/collection.html"
+                >shoppa nu</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 vd-mt">
+        <div class="content-detail">
+          <video
+            src="https://cdn.shopify.com/s/files/1/1885/6467/files/WoA_Combo_Long_FINAL-1x1_format.mp4?33076"
+            muted
+            playsinline
+            autoplay
+            loop
+          ></video>
+          <div class="content-text">
+            <h3>Skapat av unga kreatörer</h3>
+            <button class="content-text-btn mt-3">Läs mer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center content2 ">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              class="img-fluid"
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_art_print_styling_webben_49_x800.jpg?v=1581407749"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+
+          <div class="content2-img-2nd">
+            <img
+              class="img-fluid"
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Art_Print_Poster_Konst_Tavla_04_144a5953-54a1-424f-bb19-6057dfe07953_x800.jpg?v=1581465291"
+              alt="Sally"
+            />
+          </div>
+          <div class="product-info">
+            <div class="product-info-text">
+              <p>Sally</p>
+              <p>Hanna</p>
+              <p>kr 300.00 sek</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              class="img-fluid"
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_art_print_styling_webben_23_x800.jpg?v=1581434781"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+
+          <div class="content2-img-2nd">
+            <img
+              class="img-fluid"
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Art_Print_Poster_Konst_Tavla_37_5b6cf791-b394-4f07-a5c7-3bf8d842524a_x800.jpg?v=1581465666"
+              alt="Sally"
+            />
+          </div>
+          <div class="product-info">
+            <div class="product-info-text">
+              <p>Sally</p>
+              <p>Hanna</p>
+              <p>kr 300.00 sek</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              class="img-fluid"
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Annika_Hultgren_02_webben_x800.jpg?v=1581405262"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+
+          <div class="content2-img-2nd">
+            <img
+              class="img-fluid"
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Art_Print_Poster_Konst_Tavla_17_a3dfbaf3-806f-4ce8-a354-5a3de97754d9_x800.jpg?v=1581466185"
+              alt="Sally"
+            />
+          </div>
+          <div class="product-info">
+            <div class="product-info-text">
+              <p>Sally</p>
+              <p>Hanna</p>
+              <p>kr 300.00 sek</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              class="img-fluid"
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_art_print_styling_webben_31_x800.jpg?v=1581406951"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+
+          <div class="content2-img-2nd">
+            <img
+              class="img-fluid"
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Art_Print_Poster_Konst_Tavla_77_9451711a-e530-454d-956a-4df7d706d544_x800.jpg?v=1581466962"
+              alt="Sally"
+            />
+          </div>
+          <div class="product-info">
+            <div class="product-info-text">
+              <p>Sally</p>
+              <p>Hanna</p>
+              <p>kr 300.00 sek</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 ">
+          <a class="float-right" href="">Visa alla > </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col">
+        <div class="banner-heading"><a href=""></a>Create a Change</div>
+        <div class="banner-text">
+          <p>
+            Förändra ditt hem med unika konsttryck som bidrar till konstnärlig
+            resa. Med kreatörernas unika stilar kan du enkelt sätta en personlig
+            prägel i hemmet. Här hittar du noggrant utvalda prints och kan ta
+            del av tips på hur du med enkla medel kan inreda ett unikt hem.
+            Använd våra inspirationsbilder eller vårt digitala verktyg som
+            utgångspunkt för att skapa ditt kreativa hem.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row content1" id="content1">
+      <div class="col-lg-6 col-md-6">
+        <div class="content-detail">
+          <img
+            src="//cdn.shopify.com/s/files/1/1885/6467/files/WallofArt_startsidan_om_ss_700x.jpg?v=1558883037"
+            alt="12-700.jpg"
+          />
+          <div class="content-text">
+            <h3>Om Wall of Art</h3>
+            <button class="content-text-btn mt-3">Läs mer</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 vd-mt">
+        <div class="content-detail">
+          <img
+            src="//cdn.shopify.com/s/files/1/1885/6467/files/Wallofart_art_print_startpage_05_69cea75c-2e73-4a61-9a4f-13bc85207080_700x.jpg?v=1579184097"
+            alt=""
+          />
+          <div class="content-text">
+            <h3>Komponera din unika tavelvägg</h3>
+            <button class="content-text-btn mt-3">Gå till verktyg</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center content2 ">
+        <div class=" col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_art_print_styling_webben_49_x800.jpg?v=1581407749"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+
+          <div class="content2-img-2nd">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Art_Print_Poster_Konst_Tavla_04_144a5953-54a1-424f-bb19-6057dfe07953_x800.jpg?v=1581465291"
+              alt="Sally"
+            />
+          </div>
+          <div class="product-info">
+            <div class="product-info-text">
+              <p>Sally</p>
+              <p>Hanna</p>
+              <p>kr 300.00 sek</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_art_print_styling_webben_23_x800.jpg?v=1581434781"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+
+          <div class="content2-img-2nd">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Art_Print_Poster_Konst_Tavla_37_5b6cf791-b394-4f07-a5c7-3bf8d842524a_x800.jpg?v=1581465666"
+              alt="Sally"
+            />
+          </div>
+          <div class="product-info">
+            <div class="product-info-text">
+              <p>Sally</p>
+              <p>Hanna</p>
+              <p>kr 300.00 sek</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Annika_Hultgren_02_webben_x800.jpg?v=1581405262"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+
+          <div class="content2-img-2nd">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Art_Print_Poster_Konst_Tavla_17_a3dfbaf3-806f-4ce8-a354-5a3de97754d9_x800.jpg?v=1581466185"
+              alt="Sally"
+            />
+          </div>
+          <div class="product-info">
+            <div class="product-info-text">
+              <p>Sally</p>
+              <p>Hanna</p>
+              <p>kr 300.00 sek</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_art_print_styling_webben_31_x800.jpg?v=1581406951"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+
+          <div class="content2-img-2nd">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Art_Print_Poster_Konst_Tavla_77_9451711a-e530-454d-956a-4df7d706d544_x800.jpg?v=1581466962"
+              alt="Sally"
+            />
+          </div>
+          <div class="product-info">
+            <div class="product-info-text">
+              <p>Sally</p>
+              <p>Hanna</p>
+              <p>kr 300.00 sek</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <a class="float-right" href="">Visa alla > </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col">
+        <div class="banner-heading"><a href=""></a>Creative Home</div>
+        <div class="banner-text">
+          <p>
+            Förändra ditt hem med unika konsttryck som bidrar till konstnärlig
+            resa. Med kreatörernas unika stilar kan du enkelt sätta en personlig
+            prägel i hemmet. Här hittar du noggrant utvalda prints och kan ta
+            del av tips på hur du med enkla medel kan inreda ett unikt hem.
+            Använd våra inspirationsbilder eller vårt digitala verktyg som
+            utgångspunkt för att skapa ditt kreativa hem.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row content1" id="content1">
+      <div class="col-lg-6 col-md-6">
+        <div class="content-detail">
+          <img
+            src="//cdn.shopify.com/s/files/1/1885/6467/files/Wallofart_art_print_startpage_34_700x.jpg?v=1579183353"
+            alt="12-700.jpg"
+          />
+          <div class="content-text">
+            <h3>Färgstarka målningar som Prints</h3>
+            <button class="content-text-btn mt-3">Shoppa nu</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 vd-mt">
+        <div class="content-detail">
+          <video
+            src="https://cdn.shopify.com/s/files/1/1885/6467/files/Marta_Leyva_Long_FINAL-1x1_format.mp4?35316"
+            muted
+            playsinline
+            autoplay
+            loop
+          ></video>
+          <div class="content-text">
+            <h3>Inspireras av konstnärliga hem</h3>
+            <button class="content-text-btn mt-3">Läs våra blog</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center content2 ">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_art_print_styling_webben_49_x800.jpg?v=1581407749"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+
+          <div class="content2-img-2nd">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Art_Print_Poster_Konst_Tavla_04_144a5953-54a1-424f-bb19-6057dfe07953_x800.jpg?v=1581465291"
+              alt="Sally"
+            />
+          </div>
+          <div class="product-info">
+            <div class="product-info-text">
+              <p>Sally</p>
+              <p>Hanna</p>
+              <p>kr 300.00 sek</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_art_print_styling_webben_23_x800.jpg?v=1581434781"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+
+          <div class="content2-img-2nd">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Art_Print_Poster_Konst_Tavla_37_5b6cf791-b394-4f07-a5c7-3bf8d842524a_x800.jpg?v=1581465666"
+              alt="Sally"
+            />
+          </div>
+          <div class="product-info">
+            <div class="product-info-text">
+              <p>Sally</p>
+              <p>Hanna</p>
+              <p>kr 300.00 sek</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Annika_Hultgren_02_webben_x800.jpg?v=1581405262"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+
+          <div class="content2-img-2nd">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Art_Print_Poster_Konst_Tavla_17_a3dfbaf3-806f-4ce8-a354-5a3de97754d9_x800.jpg?v=1581466185"
+              alt="Sally"
+            />
+          </div>
+          <div class="product-info">
+            <div class="product-info-text">
+              <p>Sally</p>
+              <p>Hanna</p>
+              <p>kr 300.00 sek</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_art_print_styling_webben_31_x800.jpg?v=1581406951"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+
+          <div class="content2-img-2nd">
+            <img
+              src="//cdn.shopify.com/s/files/1/1885/6467/products/Wallofart_Art_Print_Poster_Konst_Tavla_77_9451711a-e530-454d-956a-4df7d706d544_x800.jpg?v=1581466962"
+              alt="Sally"
+            />
+          </div>
+          <div class="product-info">
+            <div class="product-info-text">
+              <p>Sally</p>
+              <p>Hanna</p>
+              <p>kr 300.00 sek</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <a class="float-right" href="">Visa alla > </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col">
+        <div class="banner-heading"><a href=""></a>Create Art Wall</div>
+        <div class="banner-text">
+          <p>
+            Med vårt smarta bildverktyg kan du enkelt skapa din personliga
+            tavelvägg. Dra valda bilder till bakgrunden och flytta runt dem
+            tills du är nöjd med din komposition. Du kan lägga alla posters
+            direkt i varukorgen, spara i favoriter eller dela dem med vänner.
+            Genom att kombinera olika konststilar med varandra, ger du en unik
+            känsla till dina väggar.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row content1" id="content1">
+      <div class="col-lg-6 col-md-6">
+        <div class="content-detail">
+          <img
+            src="//cdn.shopify.com/s/files/1/1885/6467/files/Wallofart_art_print_startpage_28_700x.jpg?v=1579184261"
+            alt="12-700.jpg"
+          />
+          <div class="content-text">
+            <h3>Färgstarka målningar som Prints</h3>
+            <button class="content-text-btn mt-3">Shoppa nu</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 vd-mt">
+        <div class="content-detail">
+          <img
+            src="//cdn.shopify.com/s/files/1/1885/6467/files/Wallofart_Art_print_startpage_50_700x.jpg?v=1579183480"
+            muted
+          />
+
+          <div class="content-text">
+            <h3>Inspireras av konstnärliga hem</h3>
+            <button class="content-text-btn mt-3">Läs våra blog</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row mt-5 insta-follow">
+        <div class="col-md-4  offset-md-4 col-12 ">
+          <h4>
+            <a class="font-weight-bold" href="">Följ oss @WallofArtcom</a>
+          </h4>
+        </div>
+        <div class="col-md-4 col-12 ">
+          <a class="float-right" href=""> Gå till instagram ></a>
+        </div>
+      </div>
+      <div class="row justify-content-center content2 ">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//scontent.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/88686519_188162342512146_5360479763960145498_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=GcXX3o-VNl8AX8CSmaK&oh=1b9f6e403dc36383d1d339a94100aa70&oe=5E99CA22"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//scontent.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/87694533_219403365907088_6011313677920817185_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=xoBF34Fy0_wAX8e7kF3&oh=e154c590115b3fb37b12bcacfb39f306&oe=5E882808"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//scontent.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/87353149_664488650756843_8832672601198246504_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=fGK1Fq7MvGYAX85Tvtc&oh=7e4440f36319e2640b1d1ebeab7325e4&oe=5E88F7F3"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//scontent.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/87761540_2850147431879316_4698723000823436043_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=SnOGXBAlacIAX_K8eJ0&oh=5d476f29397b9329b31f3d835483c75a&oe=5E8A1F9E"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//scontent.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/87622831_231319044574305_2759253108025850341_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=XGprgPl0M8gAX9eWOxN&oh=200e2ae0d531d2e1786c4c44687d7978&oe=5E8496A4"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//scontent.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/85157741_655909728494731_5706355663118590249_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=tI8q2rXgWFIAX8cvcFW&oh=7e0b0a6d9a130e416b6a957be0c27a88&oe=5E87C2EE"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//scontent.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/84980873_1952098204933613_8223594282896692855_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=Aca-UW1Gx5oAX-zNJ8E&oh=4141ce96f052b5c1c0fecc33693e03e5&oe=5E8D1A39"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6 content2-img">
+          <div class="content2-img-1st">
+            <img
+              src="//scontent.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/88686519_188162342512146_5360479763960145498_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=GcXX3o-VNl8AX8CSmaK&oh=1b9f6e403dc36383d1d339a94100aa70&oe=5E99CA22"
+              alt="Sally Hanna Peterson"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row footer-container">
+      <div class="col-lg-2 col-md-6 col-6">
+        <h4>Wall of Art</h4>
+        <ul class="footer1">
+          <li><a href="">Om oss</a></li>
+          <li><a href="">Presentkort</a></li>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Pinterest</a></li>
+          <li><a href="">Press</a></li>
+          <li><a href="">Samarbeta med oss</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-6 col-md-6 col-6">
+        <h4>Kundtjänst</h4>
+        <ul class="footer2">
+          <li><a href="">Frågor och svar</a></li>
+          <li><a href="">Kontakta oss</a></li>
+          <li><a href="">Köpvillkor</a></li>
+          <li><a href="">Om cookies</a></li>
+          <li><a href="">Integritetspolicy</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-12 col-12">
+        <h4 class="nehetsbrev">Nyhetsbrev</h4>
+        <ul class="footer3">
+          <li><a href="">Prenumerera på vårt nyhetsbrev</a></li>
+          <li><input class="shadow" type="email" placeholder="E-mail" /></li>
+          <li>
+            <a href=""
+              >Vill du veta mer om hur din information används? Läs vår
+              integritetspolicy.</a
+            >
+          </li>
+          <li class="copyright-notice">© 2017 Wall of Art</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="client/js/script.js"></script>
+  </body>
+</html>
