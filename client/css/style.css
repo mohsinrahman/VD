@@ -270,11 +270,17 @@ a:hover {
 .header-search-input {
   border: 0;
   border-bottom: #999 1px solid;
-  font-family: "Mark Pro";
   font-size: 0.75rem;
-  transition: border-color 0.1s;
   width: 100px;
   position: relative;
+}
+
+.form-control-custom {
+  border-radius: 0;
+  line-height: 1.4em;
+  width: 100%;
+  border: 1px solid #eee;
+  border-left: 1px solid #aaa;
 }
 
 @media only screen and (max-width: 425px) {
