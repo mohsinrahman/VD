@@ -1,0 +1,294 @@
+[
+  {
+    "nav": [
+      {
+        "hamburger-icon": "images/icon",
+        "artPrints": "Art Prints",
+        "ramar": "Ramar",
+        "search": "Search Icon"
+      },
+      {
+        "logo": "Logo"
+      },
+      {
+        "hamburger-icon": "images/icon",
+        "artPrints": "Art Prints",
+        "ramar": "Ramar",
+        "search": "Search Icon"
+      }
+    ]
+  },
+  {
+    "content1": [
+      {
+        "col1": { "image": "image", "heading": "Heading", "button": "button" }
+      },
+      { "col2": { "image": "image", "heading": "Heading", "button": "button" } }
+    ]
+  },
+  {
+    "content2": [
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 200 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 400 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 300 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 500 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button image"
+      }
+    ]
+  },
+  {
+    "content3": [
+      { "heading": "Create a Change" },
+      {
+        "text": "Konst skapas dagligen av olika typer av kreatörer. Men långt ifrån alla når ut med sitt skapande. Det vill vi förändra. Wall of Art gör det enkelt för kreatörer att sälja sina fotografier, illustrationer, målningar och grafisk design som prints. Här får de en förtjänad plats att synas på och vi tar hand om det praktiska med konstnärsskapet. På så sätt kan kreatörerna fokusera på det de gillar bäst – att vara kreativa och du hittar unik, inspirerande väggkonst som bidrar till en konstnärlig förändring."
+      }
+    ]
+  },
+  {
+    "content4": [
+      {
+        "col1": { "image": "image", "heading": "Heading", "button": "button" }
+      },
+      { "col2": { "image": "image", "heading": "Heading", "button": "button" } }
+    ]
+  },
+  {
+    "content5": [
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 200 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 400 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 300 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 500 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button image"
+      }
+    ]
+  },
+  {
+    "content6": [
+      { "heading": "Creative Home" },
+      {
+        "text": "Förändra ditt hem med unika konsttryck som bidrar till konstnärlig resa. Med kreatörernas unika stilar kan du enkelt sätta en personlig prägel i hemmet. Här hittar du noggrant utvalda prints och kan ta del av tips på hur du med enkla medel kan inreda ett unikt hem. Använd våra inspirationsbilder eller vårt digitala verktyg som utgångspunkt för att skapa ditt kreativa hem."
+      }
+    ]
+  },
+  {
+    "content7": [
+      {
+        "col1": { "image": "image", "heading": "Heading", "button": "button" }
+      },
+      { "col2": { "image": "image", "heading": "Heading", "button": "button" } }
+    ]
+  },
+  {
+    "content8": [
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 200 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 400 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 300 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 500 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button image"
+      }
+    ]
+  },
+  {
+    "content9": [
+      { "heading": "Create Art Wall" },
+      {
+        "text": "Med vårt smarta bildverktyg kan du enkelt skapa din personliga tavelvägg. Dra valda bilder till bakgrunden och flytta runt dem tills du är nöjd med din komposition. Du kan lägga alla posters direkt i varukorgen, spara i favoriter eller dela dem med vänner. Genom att kombinera olika konststilar med varandra, ger du en unik känsla till dina väggar."
+      }
+    ]
+  },
+  {
+    "content10": [
+      {
+        "col1": { "image": "image", "heading": "Heading", "button": "button" }
+      },
+      { "col2": { "image": "image", "heading": "Heading", "button": "button" } }
+    ]
+  },
+  {
+    "content11": [
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 200 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 400 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 300 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 500 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button image"
+      }
+    ]
+  },
+  {
+    "content12": [
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 200 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 400 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 300 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button"
+      },
+      {
+        "image": "Image",
+        "title": "Platino",
+        "Saulo": "Saulo",
+        "prise": "kr 500 SEK",
+        "fav-btn": "Add to Fav Button",
+        "cart-btn": "Add to Cart Button image"
+      }
+    ]
+  },
+  {
+    "footer": [
+      {
+        "wallofArt": "Wall of Art",
+        "footer1": [
+          { "om-oss": "Om oss" },
+          { "presentkort": "Presentkort" },
+          { "facebook": "Facebook" },
+          { "instagram": "Instagram" },
+          { "pinterest": "Presentkort" },
+          { "press": "Press" },
+          { "samarbeta-med-oss": "Samarbeta med oss" }
+        ]
+      },
+      {
+        "kundtjänst": "Kundtjänst",
+        "footer2": [
+          { "frågor-och-svar": "Om oss" },
+          { "kontakta oss": "Presentkort" },
+          { "köpvillkor": "Facebook" },
+          { "om-cookies": "Instagram" },
+          { "integritetspolicy": "integritetspolicy" }
+        ]
+      },
+      {
+        "nyhetsbrev": "Nyhetsbrev",
+        "footer3": [
+          { "nyhetsbrev": "Prenumerera på vårt nyhetsbrev" },
+          { "e-post": "e-post" },
+          {
+            "policy": "Vill du veta mer om hur din information används? Läs vår integritetspolicy."
+          },
+          { "© 2017 Wall of Art": "© 2017 Wall of Art" }
+        ]
+      }
+    ]
+  }
+]
