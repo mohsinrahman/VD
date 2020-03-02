@@ -39,6 +39,10 @@ a:hover {
   z-index: 999;
   background: #fff;
 }
+#logo,
+#navbar {
+  transition: 0.4s;
+}
 .vd-search {
   width: 40px;
   height: 40px;

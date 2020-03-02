@@ -1,3 +1,20 @@
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 100 ||
+    document.documentElement.scrollTop > 100
+  ) {
+    document.getElementById("navbar").style.height = "120px";
+    document.getElementById("logo").style.width = "80px";
+  } else {
+    document.getElementById("navbar").style.height = "160px";
+    document.getElementById("logo").style.width = "120px";
+  }
+}
+
 fetch("../client/vd.json")
   .then(response => response.json())
   .then(data => vd_display(data));
