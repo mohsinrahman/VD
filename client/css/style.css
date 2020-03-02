@@ -9,7 +9,8 @@ body {
 }
 .vd-nav a,
 .footer-container a,
-.insta-follow a {
+.insta-follow a,
+.anchor-fix {
   font-weight: 200;
   color: #333;
   text-decoration: none !important;
@@ -277,8 +278,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 425px) {
-  body {
-  }
   .hiden {
     display: none;
   }
